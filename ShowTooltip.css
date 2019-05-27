@@ -1,0 +1,37 @@
+.ShowTooltip {
+  position: absolute;
+  z-index: 10000;
+  background: #3b485a;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 13px;
+  line-height: 1.23;
+  color: #ffffff;
+  max-width: 200px;
+  max-width: 300px;
+  -webkit-transition: opacity ease-out 0.2s;
+  -moz-transition: opacity ease-out 0.2s;
+  -o-transition: opacity ease-out 0.2s;
+  transition: opacity ease-out 0.2s; }
+  .ShowTooltip span {
+    margin-left: 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #406cf0;
+    padding: 0px 4px;
+    font-size: 12px;
+    border-radius: 2px; }
+  .ShowTooltip div {
+    position: absolute;
+    transform: translateX(-50%);
+    border-style: solid; }
+    .ShowTooltip div.bottom {
+      bottom: -5px;
+      border-width: 5px 5px 0 5px;
+      border-color: #3b485a transparent transparent transparent; }
+    .ShowTooltip div.top {
+      top: -5px;
+      border-width: 0 5px 5px 5px;
+      border-color: transparent transparent #3b485a transparent; }
